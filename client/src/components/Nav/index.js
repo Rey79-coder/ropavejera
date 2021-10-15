@@ -11,13 +11,13 @@ function Nav() {
         <ul className="flex-row">
           <li className="mx-1">
             <Link to="/orderHistory">
-              Order History
+              Historial de Compras
             </Link>
           </li>
           <li className="mx-1">
             {/* this is not using the Link component to logout or user and then refresh the application to the start */}
             <a href="/" onClick={() => Auth.logout()}>
-              Logout
+              Cerrar sesión
             </a>
           </li>
         </ul>
@@ -27,18 +27,18 @@ function Nav() {
         <ul className="flex-row">
           <li className="mx-1">
             <Link to="/signup">
-              Signup
+              Crear Cuenta
             </Link>
           </li>
           <li className="mx-1">
             <Link to="/login">
-              Login
+              Ingresar
             </Link>
           </li>
 
           <li className="mx-1">
             <Link to="/about">
-              About Us
+              Acerca de nosotros
             </Link>
           </li>
 
@@ -51,8 +51,8 @@ function Nav() {
     <header className="flex-row px-1">
       <h1>
         <Link to="/">
-          <span role="img" aria-label="shopping bag">💐</span>
-          SDay
+          <span role="img" aria-label="shopping bag">👕 </span>
+            Ropavejera
         </Link>
 </h1>
       <nav>

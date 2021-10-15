@@ -33,12 +33,12 @@ function Success() {
     return (
         <div>
             <Jumbotron>
-                <h1>Success!</h1>
+                <h1>Exito!</h1>
                 <h2>
-                    Thank you for your purchase!
+                    Gracias por su compra!
                 </h2>
                 <h2>
-                    You will now be redirected to the homepage
+                    De vuelta a la página principal
                 </h2>
             </Jumbotron>
         </div>

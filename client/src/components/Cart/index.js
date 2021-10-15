@@ -78,8 +78,8 @@ const Cart = () => {
 
   return (
     <div className="cart">
-      <div className="close" onClick={toggleCart}>[close]</div>
-      <h2>Shopping Cart</h2>
+      <div className="close" onClick={toggleCart}>[cerrar]</div>
+      <h2>Carrito de Compras</h2>
       {state.cart.length ? (
         <div>
           {state.cart.map(item => (
@@ -90,19 +90,19 @@ const Cart = () => {
             {
               Auth.loggedIn() ?
                 <button onClick={submitCheckout}>
-                  Checkout
+                  Pagar
                 </button>
                 :
-                <span>(log in to check out)</span>
+                <span>(Ingresar para pagar)</span>
             }
           </div>
         </div>
       ) : (
         <h3>
           <span role="img" aria-label="shocked">
-            😱
+           🥺
           </span>
-          You haven't added anything to your cart yet!
+          No has agregado nada al carrito todavía!
         </h3>
       )}
     </div>

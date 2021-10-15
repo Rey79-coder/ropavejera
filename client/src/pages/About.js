@@ -3,8 +3,8 @@ import React from 'react';
 function About() {
   return (
     <div className="container">
-              <h3>Sday</h3>
-          store store 
+              <h3>ropavejera</h3>
+          tienda en linea
           <br/>
           <br/>
            </div>
