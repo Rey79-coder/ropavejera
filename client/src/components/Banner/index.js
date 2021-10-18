@@ -1,7 +1,7 @@
 import React from "react";
 // import Auth from "../../utils/auth";
 // import { Link } from "react-router-dom";
-import heroBanner from '../../assets/hero-banner.gif';
+import heroBanner from '../../assets/hero-banner.png';
 
 
 function Banner () {
