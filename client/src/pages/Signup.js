@@ -16,6 +16,11 @@ function Signup(props) {
         password: formState.password,
         firstName: formState.firstName,
         lastName: formState.lastName,
+        street: formState.street,
+        colonia: formState.colonia,
+        zipcode: formState.zipcode,
+        city: formState.city,
+        state: formState.state,
       },
     });
     const token = mutationResponse.data.addUser.token;
@@ -30,42 +35,98 @@ function Signup(props) {
     });
   };
 
+
+
   return (
     <div className="container my-1">
       <Link to="/login">← Ve a ingresar</Link>
 
       <h2>Crea una cuenta</h2>
+
+ {/* PRIMER NOMBRE */}
       <form onSubmit={handleFormSubmit}>
-        <div className="flex-row space-between my-2">
+        <div className="flex-row space-between">
           <label htmlFor="firstName">Primer Nombre:</label>
           <input
-            placeholder="First"
+            placeholder="Nombre"
             name="firstName"
             type="firstName"
             id="firstName"
             onChange={handleChange}
           />
         </div>
+
+{/* LAST NAME */}
         <div className="flex-row space-between my-2">
           <label htmlFor="lastName">Apellidos:</label>
           <input
-            placeholder="Last"
+            placeholder="Apellidos"
             name="lastName"
             type="lastName"
             id="lastName"
             onChange={handleChange}
           />
         </div>
+
+{/* CORREO */}
         <div className="flex-row space-between my-2">
           <label htmlFor="email">Correo eléctronico:</label>
           <input
-            placeholder="youremail@test.com"
+            placeholder="correo electronico"
             name="email"
             type="email"
             id="email"
             onChange={handleChange}
           />
         </div>
+
+{/* DIRECCION FISICA */}
+<div className="flex-row space-between my-2">
+          <label htmlFor="direccion">Dirección:</label>
+          <input
+            placeholder="Calle"
+            name="street"
+            type="street"
+            id="street"
+            onChange={handleChange}
+          />
+
+          <input
+            placeholder="Colonia"
+            name="colonia"
+            type="colonia"
+            id="colonia"
+            onChange={handleChange}
+          />
+
+          <input
+            placeholder="Código Postal"
+            name="zipcode"
+            type="zipcode"
+            id="zipcode"
+            onChange={handleChange}
+          />
+
+          <input
+            placeholder="Ciudad"
+            name="city"
+            type="city"
+            id="city"
+            onChange={handleChange}
+          />
+
+          <input
+            placeholder="Estado"
+            name="state"
+            type="state"
+            id="state"
+            onChange={handleChange}
+          />
+
+        </div>
+
+
+{/* CONSTRASENA */}
         <div className="flex-row space-between my-2">
           <label htmlFor="pwd">Contraseña:</label>
           <input
@@ -76,6 +137,7 @@ function Signup(props) {
             onChange={handleChange}
           />
         </div>
+{/* BOTON DE ENVIAR */}
         <div className="flex-row flex-end">
           <button type="submit">Enviar</button>
         </div>

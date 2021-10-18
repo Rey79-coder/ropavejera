@@ -38,13 +38,14 @@ function Login(props) {
         <div className="flex-row space-between my-2">
           <label htmlFor="email">Correo eléctronico:</label>
           <input
-            placeholder="youremail@test.com"
+            placeholder="tucorreo@prueba.com"
             name="email"
             type="email"
             id="email"
             onChange={handleChange}
           />
         </div>
+
         <div className="flex-row space-between my-2">
           <label htmlFor="pwd">Contraseña:</label>
           <input
@@ -55,6 +56,7 @@ function Login(props) {
             onChange={handleChange}
           />
         </div>
+        
         {error ? (
           <div>
             <p className="error-text">email o contraseña están incorrectos</p>
