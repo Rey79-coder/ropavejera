@@ -116,7 +116,6 @@ db.once('open', async () => {
       price: 60.00,
       quantity: 1
     },
-
     {
       name: 'Zapatos cafes',
       category: categories[2]._id,
@@ -141,8 +140,35 @@ db.once('open', async () => {
       name: 'Pato Donald',
       category: categories[3]._id,
       description:
-        'Comodos y para trabajar.',
-      image: 'zapatos_1.jpg',
+        'Pato Donald sin brazo.',
+      image: 'juguetes_0.jpg',
+      price: 30.00,
+      quantity: 1
+    },
+    {
+      name: 'Catarinita',
+      category: categories[3]._id,
+      description:
+        'Dos cubos y una catarinita.',
+      image: 'juguetes_1.jpg',
+      price: 30.00,
+      quantity: 1
+    },
+    {
+      name: 'Mickey Mouse con lampara',
+      category: categories[3]._id,
+      description:
+        'Mickey Mouse las baterias no estan incluidas.',
+      image: 'juguetes_2.jpg',
+      price: 30.00,
+      quantity: 1
+    },
+    {
+      name: 'Hello Kitty',
+      category: categories[3]._id,
+      description:
+        'Peluche de Hello Kitty',
+      image: 'juguetes_3.jpg',
       price: 30.00,
       quantity: 1
     },
@@ -156,39 +182,66 @@ db.once('open', async () => {
       quantity: 1
     },
     {
-      name: 'Zapatos cafes',
-      category: categories[3]._id,
+      name: 'Figura de Angel',
+      category: categories[4]._id,
       description:
-        'Comodos y para trabajar.',
-      image: 'zapatos_1.jpg',
-      price: 30.00,
+        'Figura de Angel de Porcelana',
+      image: 'accesorios_0.jpg',
+      price: 10.00,
       quantity: 1
     },
     {
-      name: 'Zapatos cafes',
-      category: categories[3]._id,
+      name: 'Dos Delfines',
+      category: categories[4]._id,
       description:
-        'Comodos y para trabajar.',
-      image: 'zapatos_1.jpg',
-      price: 30.00,
+        'Dos Delfines medio rotos',
+      image: 'accesorios_1.jpg',
+      price: 5.00,
       quantity: 1
     },
     {
-      name: 'Zapatos cafes',
-      category: categories[3]._id,
+      name: 'Campana con Cruz',
+      category: categories[4]._id,
       description:
-        'Comodos y para trabajar.',
-      image: 'zapatos_1.jpg',
-      price: 30.00,
+        'Campanita con Cruz',
+      image: 'accesorios_2.jpg',
+      price: 5.00,
       quantity: 1
     },
     {
-      name: 'Zapatos cafes',
-      category: categories[3]._id,
+      name: 'Bufanda',
+      category: categories[4]._id,
       description:
-        'Comodos y para trabajar.',
-      image: 'zapatos_1.jpg',
-      price: 30.00,
+        'Bufanda Azul',
+      image: 'accesorios_3.jpg',
+      price: 15.00,
+      quantity: 1
+    },
+    {
+      name: 'Sombrero',
+      category: categories[4]._id,
+      description:
+        'Sombrero Beige',
+      image: 'accesorios_4.jpg',
+      price: 15.00,
+      quantity: 1
+    },
+    {
+      name: 'Gorra Gris',
+      category: categories[4]._id,
+      description:
+        'Gorra Gris Honda',
+      image: 'accesorios_5.jpg',
+      price: 10.00,
+      quantity: 1
+    },
+    {
+      name: 'Paraguas',
+      category: categories[4]._id,
+      description:
+        'Paraguas',
+      image: 'accesorios_6.jpg',
+      price: 15.00,
       quantity: 1
     },
   ]);
