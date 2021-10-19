@@ -5,8 +5,6 @@ function About() {
     <div className="container">
               <h3>ropavejera</h3>
           tienda en linea
-          <br/>
-          <br/>
            </div>
         );
 }
