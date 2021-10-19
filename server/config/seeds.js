@@ -63,7 +63,7 @@ db.once('open', async () => {
       category: categories[1]._id,
       description:
         'Pantalon de Mujer talla mediana',
-      image: 'casual-2.jpg',
+      image: 'pantalon_0.jpg',
       price: 40.00,
       quantity: 1
     },
@@ -73,7 +73,7 @@ db.once('open', async () => {
       category: categories[1]._id,
       description:
         'Pantalon de Mujer talla mediana',
-      image: 'pantalon_0.jpg',
+      image: 'pantalon_1.jpg',
       price: 40.00,
       quantity: 1
     },
@@ -83,17 +83,17 @@ db.once('open', async () => {
       category: categories[1]._id,
       description:
         'Muy comodo para ajustar la lonja',
-      image: 'pantalon_1.jpg',
+      image: 'pantalon_2.jpg',
       price: 40.00,
       quantity: 1
     },
 
     {
-      name: 'Pantalon de Mezclilla para ninas',
+      name: 'Pantalon de Mezclilla para niñas',
       category: categories[1]._id,
       description:
-        'Pantalon de mezclilla para mujercitas',
-      image: 'pantalon_2.jpg',
+        'Pantalon de mezclilla para niña',
+      image: 'pantalon_3.jpg',
       price: 20.00,
       quantity: 1
     },
